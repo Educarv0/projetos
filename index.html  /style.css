@@ -12,12 +12,10 @@
   }
   /*TUDO DO SITE*/
 *{
-    margin: 50px 30px 0;
     position: right;
     background-color: rgb(21, 2, 39);
     outline: none;
     border: none;
-    cursor: pointer;
 }
 body{
     background-position: center;
@@ -38,6 +36,16 @@ h1{
 h2{
     font-family: 'Poppins';
     color: white;
-    font-size: 80px;
+    font-size: 60px;
     animation: fadein-movimento 1s;
+}
+img{
+    width: 1000px;
+}
+section{
+    display: flex;
+}
+iframe{
+    width: 400px;
+    height: 400px;
 }
